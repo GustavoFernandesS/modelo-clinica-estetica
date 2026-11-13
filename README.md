@@ -1,6 +1,6 @@
 # Modelo de site · Clínica de estética e saúde íntima
 
-Site demonstrativo da [Codetrax](https://codetraxgf.com), com 9 páginas, para uma clínica de estética, saúde íntima e fisioterapia pélvica. A "Clínica Lívia Andrade", a equipe, os registros, o endereço e os depoimentos são **fictícios**. As fotos são do Unsplash ([CREDITOS.md](CREDITOS.md)).
+Site demonstrativo da [Codetrax](https://codetraxgs.com), com 9 páginas, para uma clínica de estética, saúde íntima e fisioterapia pélvica. A "Clínica Lívia Andrade", a equipe, os registros, o endereço e os depoimentos são **fictícios**. As fotos são do Unsplash ([CREDITOS.md](CREDITOS.md)).
 
 Todos os botões de WhatsApp e os formulários abrem uma conversa com a Codetrax, para que nenhum número fictício caia no WhatsApp de uma pessoa real.
 
