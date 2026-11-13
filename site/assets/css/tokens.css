@@ -1,0 +1,88 @@
+/* Clínica Lívia Andrade (modelo) — gerado a partir de tokens.json */
+:root {
+  --fundo: #FFF5F6;
+  --superficie: #FFFFFF;
+  --line: #EADCDF;
+  --ink: #4D4A4B;
+  --ink-muted: #6E6A6B;
+  --ink-soft: #8C8889;
+  --grafite: #4D4A4B;
+  --grafite-hover: #3A3738;
+  --on-grafite: #FFFFFF;
+  --scrim: #1F1D1E99;
+  --blush: #FFCCD1;
+  --on-blush: #4D4A4B;
+  --rosa-claro: #FF90AB;
+  --rosa: #F60069;
+  --on-rosa: #FFFFFF;
+  --rosa-vivo: #FF41A1;
+  --rosa-texto: #C8004F;
+  --status-ok: #2F7D3A;
+  --status-ok-soft: #E3F2E2;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-28: 112px;
+  --container: 1120px;
+  --radius-photo: 6px;
+  --radius-frame: 20px;
+  --radius-full: 9999px;
+  --font-display: "Inter Tight", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-sans: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --shadow-float: 0 10px 30px -10px #4D4A4B59;
+  --focus-ring: 0 0 0 2px #FFF5F6, 0 0 0 4px #F60069;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --fundo: #1F1D1E;
+    --superficie: #2A2728;
+    --line: #3F3A3B;
+    --ink: #FFF5F6;
+    --ink-muted: #C9C3C4;
+    --ink-soft: #8C8889;
+    --grafite: #4D4A4B;
+    --grafite-hover: #5E5A5B;
+    --on-grafite: #FFFFFF;
+    --scrim: #1F1D1EB3;
+    --blush: #FFCCD1;
+    --on-blush: #4D4A4B;
+    --rosa-claro: #FF90AB;
+    --rosa: #FF41A1;
+    --on-rosa: #1F1D1E;
+    --rosa-vivo: #FF90AB;
+    --rosa-texto: #FF90AB;
+    --status-ok: #6CCB7A;
+    --status-ok-soft: #1B3320;
+    --shadow-float: 0 10px 30px -10px #000000CC;
+    --focus-ring: 0 0 0 2px #1F1D1E, 0 0 0 4px #FF41A1;
+  }
+}
+:root[data-theme="dark"] {
+  --fundo: #1F1D1E;
+  --superficie: #2A2728;
+  --line: #3F3A3B;
+  --ink: #FFF5F6;
+  --ink-muted: #C9C3C4;
+  --ink-soft: #8C8889;
+  --grafite: #4D4A4B;
+  --grafite-hover: #5E5A5B;
+  --on-grafite: #FFFFFF;
+  --scrim: #1F1D1EB3;
+  --blush: #FFCCD1;
+  --on-blush: #4D4A4B;
+  --rosa-claro: #FF90AB;
+  --rosa: #FF41A1;
+  --on-rosa: #1F1D1E;
+  --rosa-vivo: #FF90AB;
+  --rosa-texto: #FF90AB;
+  --status-ok: #6CCB7A;
+  --status-ok-soft: #1B3320;
+  --shadow-float: 0 10px 30px -10px #000000CC;
+  --focus-ring: 0 0 0 2px #1F1D1E, 0 0 0 4px #FF41A1;
+}

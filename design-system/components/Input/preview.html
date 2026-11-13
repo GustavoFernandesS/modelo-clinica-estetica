@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head><link rel="stylesheet" href="../../tokens.css"><link rel="stylesheet" href="../bundle.css"><meta charset="utf-8"><title>Input — preview</title></head>
+<body>
+<div class="cr-stack cr-pad" style="gap:var(--space-8)">
+  <div class="cr-stack" style="gap:var(--space-5)">
+    <div class="cr-row" style="align-items:flex-start;gap:var(--space-8)">
+      <label class="cr-field"><span class="cr-label">Seu nome</span><input class="cr-input" placeholder="Como podemos te chamar?"></label>
+      <label class="cr-field"><span class="cr-label">WhatsApp</span><input class="cr-input" inputmode="numeric" value="(31) 9000" aria-invalid="true"><span class="cr-help cr-help-error">Faltam dígitos: use DDD + 9 números.</span></label>
+      <label class="cr-field cr-select"><span class="cr-label">Tratamento de interesse</span><select class="cr-input"><option>Laser Íntimo</option><option>Fisioterapia Pélvica</option><option>Harmonização Íntima</option><option>Botox</option><option>Depilação a Laser</option><option>Clube do Corpo</option></select></label>
+    </div>
+    <label class="cr-check"><input type="checkbox" checked> Autorizo o contato pelo WhatsApp. <a href="#">Política de privacidade</a></label>
+  </div>
+  <div class="cr-on-dark" style="padding:var(--space-5) var(--space-6);border-radius:var(--radius-frame)">
+    <span class="cr-label" style="color:#FFFFFFB3">Dia do PISOM · lista de espera</span>
+    <div class="cr-line-input"><input inputmode="numeric" placeholder="Seu WhatsApp" aria-label="WhatsApp"><button>Entrar na lista <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 11.5l7-7M5.5 4.5h6v6"/></svg></button></div>
+  </div>
+</div>
+</body>
+</html>
