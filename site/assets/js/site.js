@@ -5,9 +5,7 @@
   var WHATS = "5511947771128";
   function waLink(msg) {
     var texto = "Olá, Codetrax! Vi o modelo de site de clínica estética no portfólio e quero um site assim." +
-      (msg ? "
-
-(Botão que testei: " + msg + ")" : "");
+      (msg ? "\n\n(Botão que testei: " + msg + ")" : "");
     return "https://wa.me/" + WHATS + "?text=" + encodeURIComponent(texto);
   }
 
